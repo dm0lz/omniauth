@@ -1,0 +1,45 @@
+/* http://twitter.github.com/bootstrap/base-css.html#buttons */
+
+body {
+  max-width: 960px;
+  margin: auto;
+  margin-top: 10em; 
+  background: #f5f4ef;
+}
+
+.btn-primary {
+  float: left;
+}
+
+.btn-info {
+  float: right;
+}
+
+header.page-header h1{
+  text-align: center;
+  color: green;
+  font-weight: bold;
+  font-size: 4em;
+}
+
+a[href='/auth/facebook'] {
+  width: 20em;
+}
+
+a[href='/auth/twitter'] {
+  width: 20em;
+}
+
+footer {
+  display: block;
+  margin-top: 1em;
+}
+
+.well {
+  background: #ffffff;
+  padding-bottom: 40px;
+}
+
+.container.well {
+  max-width: 960px;
+}

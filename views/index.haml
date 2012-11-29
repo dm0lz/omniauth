@@ -1,0 +1,12 @@
+.container.well
+	%h3 You are connected with your #{@provider} account
+	%h5 You are logged in with the following access_token :  #{@gold_token}
+	%h5 Your name is : #{@name}
+	%h5 You live in : #{@ciudad}
+	%h5 Your email is : #{@email}
+	%h5 Your profile picture is : 
+	%img{:src => @foto}
+	-2.times do
+		%br
+	%a.btn.btn-danger.btn-large{:href => "/logout"} Logout &raquo;
+	
