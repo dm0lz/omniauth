@@ -18,6 +18,7 @@ end
 
 class OmniauthConnect < Sinatra::Base
   
+  set :haml, :format => :html5 
   set :protection, :except => :frame_options
   enable :sessions
 
