@@ -101,10 +101,10 @@ class OmniauthConnect < Sinatra::Base
       @client ||= Mongo::Connection.new("mongocfg1.fetcher")
     end
     def db
-      @db ||= client['test']
+      db ||= client['test']
     end  
     def person_User_Collection
-      coll = db['http://schema.org/Person/User']
+      coll ||= db['http://schema.org/Person/User']
     end
   end
 
